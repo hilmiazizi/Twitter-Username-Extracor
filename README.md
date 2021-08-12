@@ -1,2 +1,2 @@
-# Twitter-Username-Extracor
-Twitter Username &amp; Hashtags Extractor
+# Twitter Username Extracor
+This script using third party website to scrape twitter datas
