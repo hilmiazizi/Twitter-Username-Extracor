@@ -134,7 +134,7 @@ def grouper(n, iterable, padvalue=None):
 parser = argparse.ArgumentParser()
 parser.add_argument('--tags', action="store_true", help="Extract Username from Tags")
 parser.add_argument('--username', action="store_true", help="Extract Tags from username")
-parser.add_argument('--source', type=str, required=True, help="Source file containing hashtags")
+parser.add_argument('--source', type=str, required=True, help="Source file containing hashtags/username")
 parser.add_argument('--dir', type=str, required=True, help="Directory name for result")
 args = parser.parse_args()
 if not os.path.isdir(args.dir):
